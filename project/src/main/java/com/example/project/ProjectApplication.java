@@ -9,11 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ProjectApplication {
 
-	@GetMapping("/hello-world") //mapping to a get usage
-	public String HelloWorld(){
-		return "Hello world!";
-	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(ProjectApplication.class, args);
 	}

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: project
+
+  datasource:
+    url: jdbc:h2:mem:project
+    username: sa
+    password: password
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+      path: /console
